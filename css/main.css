@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+body{
+  background-image: url(../img/heroimg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: center;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+img{
+  width: 100%;
+  max-width: 500px;
+}
+
+#navbar{
+  height: 90px;
+  width: 100%;
+  background-color: #333333;
+}
+
+a{
+  text-decoration: none;
+  transition: .3s ease;
+  color: white;
+}
+
+h1{
+  color: #00BCD4;
+  font-size: 62px;
+  margin-bottom: 2rem;
+  font-family: 'Caesar Dressing', cursive;
+}
+
+#navbar a{
+  align-items: center;
+  min-width: 160px;
+  display: inline-flex;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+  font-size: 1.8rem;
+
+}
+
+#navbar a:hover{
+  text-decoration: underline;
+  color: #00bcd4;
+}
+
+#main{
+  width: 100%;
+  background-color: RGBA(0,0,0,.8);
+  padding: 2rem;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 500px){
+  body{
+    background-color: black;
+    background-position: 15% center;
+    background-size: 180%;
+  }
+}
